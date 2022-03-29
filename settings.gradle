@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+        //add for barchart
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "PopulationGraphMVVM2"
+include ':app'
